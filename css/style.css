@@ -1,0 +1,17 @@
+/**
+ * Text 1
+ */
+#text1
+{
+    margin:           2.0em 0.0em;
+    overflow:         hidden;
+    color:            #ffffff;
+    background-color: #3fafee;
+}
+
+
+/* parallax */
+.parallax-window {
+	min-height: 400px;
+	background: transparent;
+}

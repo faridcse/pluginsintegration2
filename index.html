@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS link -->    
+
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Custom CSS/style.css link -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- media CSS file -->
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>jQuery Plugins Integration</title>
+  </head>
+  <body>
+
+    <section class="curved-text-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div id="text1"> Curved text goes here, Lorem ipsum dolor sit amet.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="parallax-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="parallax-window" data-parallax="scroll" data-image-src="images/bg1.jpg"></div>
+                </div>
+            </div>
+
+            <div class="row py-5">
+                <div class="col-12">
+                    <div class="parallax-window" data-parallax="scroll" data-image-src="images/bg2.jpg"></div>
+                </div>
+            </div>
+        </div>
+    </section>  
+
+    <section class="load-more-section pb-5">
+        <div class="container">
+            <div class="row">
+                
+                <div class="items">
+                    <div class="item">Item 1</div>
+                    <div class="item">Item 2</div>
+                    <div class="item">Item 3</div>
+                    <div class="item">Item 4</div>
+                    <div class="item">Item 5</div>
+                    <div class="item">Item 6</div>
+                    <div class="item">Item 7</div>
+                    <div class="item">Item 8</div>
+                    <div class="item">Item 9</div>
+                    <div class="item">Item 10</div>
+                    <div class="item">Item 11</div>
+                    <div class="item">Item 12</div>
+                </div>
+
+                <div class="buttonToogle" style="display: none;">
+                    <a href="javascript:;" class="showMore">+ View More</a>
+                </div>                
+            </div>            
+        </div>
+    </section> 
+
+    <section class="mixit-up-section">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <ul>
+                        <li class="list-inline-item"><a class="btn btn-info" href="#portfolio" data-filter="all">All</a></li>                        
+                        <li class="list-inline-item"><a class="btn btn-info" href="#portfolio" data-filter=".web">Web Design</a></li>
+                        <li class="list-inline-item"><a class="btn btn-info" href="#portfolio" data-filter=".print">Print</a></li>
+                        <li class="list-inline-item"><a class="btn btn-info" href="#portfolio" data-filter=".logo">Logo Design</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row portfolio" id="portfolio">
+                <div class="col-md-4 mix logo mb-4">
+                    <img src="images/p1.jpg" alt="" class="w-100">
+                </div>
+                <div class="col-md-4 mix logo mb-4">
+                    <img src="images/p2.jpg" alt="" class="w-100">
+                </div>
+                <div class="col-md-4 mix web mb-4">
+                    <img src="images/p3.jpg" alt="" class="w-100">
+                </div>
+                <div class="col-md-4 mix logo mb-4">
+                    <img src="images/p4.jpg" alt="" class="w-100">
+                </div>
+                <div class="col-md-4 mix print mb-4">
+                    <img src="images/p5.jpg" alt="" class="w-100">
+                </div>
+                <div class="col-md-4 mix web mb-4">
+                    <img src="images/p6.jpg" alt="" class="w-100">
+                </div>
+                <div class="col-md-4 mix web print mb-4">
+                    <img src="images/p7.jpg" alt="" class="w-100">
+                </div>
+                <div class="col-md-4 mix logo mb-4">
+                    <img src="images/p8.jpg" alt="" class="w-100">
+                </div>
+                <div class="col-md-4 mix logo print mb-4">
+                    <img src="images/p9.jpg" alt="" class="w-100">
+                </div>
+            </div>
+        </div>
+    </section>     
+
+
+    <!-- JS/JQ link -->
+
+    <script src="js/jquery.min.js"></script>
+    <!-- <script src="js/jquery-3.6.0.min.js"></script> -->
+
+
+    <script src="vendors/curved-text/javascript/jquery.typorize.min.js"  ></script>
+    <script src="vendors/curved-text/javascript/jquery.curvedtext.min.js"></script>
+    <script src="vendors/parallax/parallax.min.js"></script>
+    <script src="vendors/load-more/btnloadmore.min.js"></script>
+    <script src="vendors/mixitup/dist/mixitup.min.js"></script>
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    </body>
+</html>
